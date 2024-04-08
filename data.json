@@ -1,4 +1,20 @@
-{
-  "name": "Max",
-  "data": "someething"
-}
+[
+  {
+    "name": "Max",
+    "url": "https://www.max.com",
+    "image_url": "https://images.cdn.prd.api.discomax.com/2023%2F4%2F13%2F6464c054-300e-4800-815f-84e63545ca8c.png?h=48&f=webp",
+    "notes": "Need to make background div purple"
+  },
+  {
+    "name": "Netflix",
+    "url": "https://www.netflix.com/browse",
+    "image_url": "https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940",
+    "notes": ""
+  },
+  {
+    "name": "Youtube",
+    "url": "https://www.youtube.com",
+    "image_url": "https://t3.ftcdn.net/jpg/04/74/05/94/360_F_474059464_qldYuzxaUWEwNTtYBJ44VN89ARuFktHW.jpg",
+    "notes": ""
+  }
+]
