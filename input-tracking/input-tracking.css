@@ -1,4 +1,4 @@
-#content {
+#cardHolder {
   display: flex;
   flex-wrap: wrap;
 }
