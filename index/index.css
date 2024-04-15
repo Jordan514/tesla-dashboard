@@ -12,12 +12,17 @@
 
 #content li {
   margin: 10px;
+  height: 100px;
+  width: 100px;
   display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 #content li img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+  height: 120px;
+  width: auto;
   background-color: black;
 }

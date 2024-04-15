@@ -69,7 +69,7 @@ function createCard(stringOfEvent) {
   }
 }
 
-//Then add the ability to turn off card creation
+//Then add the ability to turn on and off card creation
 let toggleCardCreator = false;
 document.querySelector("button").addEventListener("click", () => {
   toggleCardCreator = !toggleCardCreator;
