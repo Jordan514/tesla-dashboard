@@ -1,6 +1,6 @@
 #content {
   display: flex;
-  overflow: visible;
+  flex-wrap: wrap;
 }
 
 .card {
