@@ -10,29 +10,39 @@ body {
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: black;
 }
 
 #header ul {
   display: flex;
-  margin: 20px;
   list-style: none;
   justify-content: space-around;
   padding: 0%;
+  position: sticky;
 }
 
 #header li {
-  padding: 20px;
-  width: 30%;
-  justify-content: center;
+  flex: 1 1 0;
   display: flex;
   background-color: transparent;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
 }
 
 #header a {
   text-decoration: none;
+  flex: 1 1 0;
   color: white;
   outline: none;
   font-size: x-large;
+  padding: 5%;
+  border-radius: 3cap;
+  text-align: center;
+}
+
+#header a:hover {
+  background-color: rgba(131, 131, 131, 0.2);
 }
 
 #header a:hover,
@@ -41,7 +51,11 @@ body {
 }
 
 #content {
-  margin-bottom: 12px;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3cap;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 #footer {
@@ -53,11 +67,18 @@ body {
   background-color: rgb(0, 0, 0);
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 0.5em;
 }
 
 #footer button {
   padding: 0.5em;
+  border-radius: 3cap;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+#footer button:hover {
+  background-color: rgba(131, 131, 131, 0.2);
 }
 
 .toolbar {
@@ -70,5 +91,12 @@ body {
 
 .toolbar * {
   padding: 10px;
-  border-radius: 10%;
+  border-radius: 3cap;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.toolbar *:hover {
+  background-color: rgba(131, 131, 131, 0.2);
 }
