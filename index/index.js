@@ -4,7 +4,7 @@ let documentContent = document.querySelector("#content");
 let documentList = documentContent.querySelector("ul");
 
 async function createLinks() {
-  let data = (await fetch("./index/data.json"))
+  let data = (await fetch("./index/streaming-data.json"))
     .json()
     .then((json) => Object.entries(json));
 

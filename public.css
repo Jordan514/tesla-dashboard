@@ -1,7 +1,6 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: cadetblue;
   flex-direction: column;
   background-image: url("https://i.redd.it/paujt58s1ca61.jpg");
   background-size: auto 100%;
